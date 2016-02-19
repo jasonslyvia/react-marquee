@@ -41,13 +41,13 @@ Whether or not loop the marquee.
 
 ### leading
 
-Type: Number Default: 0
+Type: Number Default: `0`
 
 The leading waiting time for the marquee to move.
 
 ### trailing
 
-Type: Number Default: 0
+Type: Number Default: `0`
 
 The trailing waiting time for the marquee to start over.
 
@@ -56,3 +56,7 @@ The trailing waiting time for the marquee to start over.
 ```
 $ npm run build
 ```
+
+## License
+
+MIT
