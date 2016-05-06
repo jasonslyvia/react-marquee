@@ -15,7 +15,7 @@ var ReactDOM = require('react-dom');
 var Marquee = require('react-marquee');
 
 ReactDOM.render(
-  <Marque text="this is a very very very very very very very very very very very very very very very very long text" />
+  <Marquee text="this is a very very very very very very very very very very very very very very very very long text" />
 , document.body);
 ```
 
