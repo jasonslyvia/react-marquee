@@ -4,7 +4,7 @@ A plain old `<marquee>` tag replacement in React component.
 
 This is a forked branch.
 
-All Credits goes to jasonslyvia/SC-react-marquee.
+All Credits goes to jasonslyvia/react-marquee.
 
 This forked branch fixes a specific issue of Offset not getting to reset to 0 after text change.
 
@@ -17,7 +17,7 @@ Release Notes :
 ### Using package.json
 
 ```
-"react-marquee": "https://github.com/sahilchaddha/react-marquee.git"
+"react-marquee": "https://github.com/sahilchaddha/SC-react-marquee.git"
 ```
 
 ## Usage
