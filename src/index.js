@@ -52,6 +52,10 @@ const Marquee = React.createClass({
     clearTimeout(this._marqueeTimer);
   },
 
+  componentWillReceiveProps() {
+        this.handleMouseLeave();
+  },
+
   handleMouseEnter() {
     if (this.props.hoverToStop) {
       clearTimeout(this._marqueeTimer);
