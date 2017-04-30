@@ -1,8 +1,10 @@
 # react-marquee [![npm version](https://badge.fury.io/js/react-marquee.svg)](http://badge.fury.io/js/react-marquee)
 
 A plain old `<marquee>` tag replacement in React component.
+It is a forked branch.
+All Credits go to jasonslyvia/react-marquee.
 
-NOTE : A Quick Hack was added to this forked repo to support Text Changes.
+This forked branch supports Dynamic Text Changes.
 
 ## Installation
 
