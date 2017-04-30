@@ -2,6 +2,8 @@
 
 A plain old `<marquee>` tag replacement in React component.
 
+NOTE : A Quick Hack was added to this forked repo to support Text Changes.
+
 ## Installation
 
 ```
