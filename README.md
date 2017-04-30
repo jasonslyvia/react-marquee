@@ -1,6 +1,16 @@
-# react-marquee [![npm version](https://badge.fury.io/js/react-marquee.svg)](http://badge.fury.io/js/react-marquee)
+# SC-react-marquee [![npm version](https://badge.fury.io/js/react-marquee.svg)](http://badge.fury.io/js/react-marquee)
 
 A plain old `<marquee>` tag replacement in React component.
+
+This is a forked branch.
+
+All Credits goes to jasonslyvia/react-marquee.
+
+This forked branch fixes a specific issue of Offset not getting to reset to 0 after text change.
+
+Release Notes :
+
+1.Added Support for Dynamic Text Changes.
 
 ## Installation
 
