@@ -48,6 +48,16 @@ const Marquee = React.createClass({
     }
   },
 
+   componentWillReceiveProps(nextProps) {
+          if(this.props.text.length != nextProps.text.length)
+          {
+              clearTimeout(this._marqueeTimer);
+              this.setState({
+                animatedWidth: 0
+              });
+          }
+  },
+
   componentWillUnmount() {
     clearTimeout(this._marqueeTimer);
   },
