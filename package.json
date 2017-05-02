@@ -1,6 +1,6 @@
 {
   "name": "react-marquee",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A <marquee> component for React",
   "main": "lib/index.js",
   "scripts": {
