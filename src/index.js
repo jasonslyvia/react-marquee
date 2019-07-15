@@ -88,7 +88,7 @@ class Marquee extends Component {
         <div className={`ui-marquee ${this.props.className}`} style={{overflow: 'hidden'}}
              onMouseEnter={this.handleMouseEnter}
              onMouseLeave={this.handleMouseLeave}>
-          <span ref="text" style={style} title={this.props.text}>{this.props.text}</span>
+          <span ref="text" style={style} title={this.props.title || this.props.text}>{this.props.text}</span>
         </div>
       );
     }
@@ -157,7 +157,8 @@ Marquee.defaultProps = {
   hoverToStop: false,
   loop: false,
   leading: 0,
-  trailing: 0
+  trailing: 0,
+  title: ''
 }
 
 Marquee.propTypes = {
@@ -166,7 +167,8 @@ Marquee.propTypes = {
   loop: PropTypes.bool,
   leading: PropTypes.number,
   trailing: PropTypes.number,
-  className: PropTypes.string
+  className: PropTypes.string,
+  title: PropTypes.string
 }
 
 module.exports = Marquee;
