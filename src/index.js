@@ -38,8 +38,8 @@ class Marquee extends Component {
     clearTimeout(this._marqueeTimer);
   }
 
-  componentWillReceiveProps(nextProps) {
-          if(this.props.text.length != nextProps.text.length)
+  componentDidReceiveProps(prevProps) {
+          if(this.props.text.length != prevProps.text.length)
           {
               clearTimeout(this._marqueeTimer);
               this.setState({
